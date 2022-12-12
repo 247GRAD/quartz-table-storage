@@ -4,6 +4,16 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Version>0.1.0</Version>
+        <Title>Quartz Job Persistence on Azure Table Storage</Title>
+        <Authors>247GRAD</Authors>
+        <Description>This is an alpha stage of Quartz Job Persistence on Azure Table Storage. It implements the IJobStore on top of an Azure TableClient. The implementation supports job persistence, accessing job storage from multiple instances in clustering mode, non-concurrent job execution, job data persistence, and JSON serialization of Quartz types.</Description>
+        <Copyright>Copyright (c) 2022 247GRAD</Copyright>
+        <PackageProjectUrl>https://github.com/247GRAD/quartz-table-storage</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/247GRAD/quartz-table-storage/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/247GRAD/quartz-table-storage</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>scheduling tasks jobs triggers scheduler threading quartz azure table tables storage</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
